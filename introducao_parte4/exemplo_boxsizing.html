@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box sizing</title>
+    <style>
+        body{
+            margin: 0;
+        }
+        .caixa1, .caixa2{
+            width: 300px;
+            text-align: justify;
+            background-color: #CCC;
+        }
+
+        .caixa1{
+            border: 15px solid black;
+            padding-left: 5px;
+            padding-right: 20px;
+            box-sizing: border-box;
+        }
+
+        .rodape{
+            background-color: aliceblue;
+            padding: 12px;
+            border: 1px solid #EEE;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+    <article>
+        <p class="caixa1">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Omnis nesciunt modi alias temporibus mollitia suscipit molestias ipsam explicabo, quidem optio provident repellendus aspernatur itaque in, laboriosam, eaque laudantium esse velit?
+        </p>
+        <p class="caixa2">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla ut sequi consectetur quae, a voluptates magnam voluptatibus perspiciatis maiores. Rerum consequatur eos totam quo minima hic alias, at praesentium dolorum.
+        </p>
+        <footer class="rodape">Volte sempre</footer>
+    </article>
+    
+</body>
+</html>
